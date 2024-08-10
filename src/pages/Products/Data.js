@@ -8,7 +8,7 @@ export const homeObjOne = {
     'Nuestro Compromiso es ofrecer servicios de contabilidad que le permita llevar acabo la administración de su negocio de una forma ágil, confiable y asertiva.', 
     headline: 'Contabilidad precisa para un futuro seguro', 
     lightText: true, 
-    topline: 'Cortes Accounting ',
+    topline: 'Cortes Accounting Services',
     img: require('../../images/home-page-picture.png'), 
     alt: 'Image', 
     start: ''
@@ -74,7 +74,7 @@ export const homeObjFive = {
     '¿Tienes preguntas ? Llama al 787-212-8172, o escribenos a nuestro correo electronico directamente desde nuestra pagina,  Estamos aquí para ofrecerte el apoyo que necesitas.', 
     headline: 'Contáctanos', 
     lightText: true, 
-    topline: 'Te asistimos',
+    topline: 'Estamos Aquí para Ayudarte',
     img: require('../../images/Contact-Picture.png'), 
     alt: 'Image', 
     start: ''

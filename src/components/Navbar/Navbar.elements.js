@@ -31,20 +31,21 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration:none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
 `;
 
 
 export const NavIcon = styled(FcBullish)`
-color: red;
+
  margin-right: 0.5rem;
 
 `;
 
 export const MobileIcon = styled.div`
 display: none;
+
 
 @media screen and (max-width: 960px)  {
     display: block;

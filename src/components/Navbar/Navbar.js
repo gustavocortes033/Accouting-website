@@ -10,6 +10,7 @@ const Navbar = () => {
      const [button, setButton ]  = useState(true);
 
      const handleClick = () => setClick(!click);
+     const closeMobileMenu = () => setClick(false)
 
      const showButton = ()  =>  {
         if(window.innerWidth  <=960) {
@@ -25,10 +26,10 @@ const Navbar = () => {
      window.addEventListener('resize', showButton);
   return (
     <>
-    <IconContext.Provider value={{ color: '#0092ca' }}>
+    <IconContext.Provider value={{ color: '#fff' }}>
       <Nav>
         <NavbarContainer>
-            <NavLogo to='/'>
+            <NavLogo to='/' onClick={closeMobileMenu}>
             <NavIcon/>
             Cortés Accounting
             </NavLogo>
@@ -42,13 +43,14 @@ const Navbar = () => {
                     </NavLinks>
                 </NavItems>
                <NavItems>
-                    <NavLinks to='/personal'>
-                        Personal
+               <NavLinks to='/services'>
+                       Commercial
                     </NavLinks>
+                    
                 </NavItems>
              <NavItems>
-                    <NavLinks to='/commercial'>
-                       Commercial
+             <NavLinks to='/products'>
+                        Personal
                     </NavLinks>
                 </NavItems>
                 <NavItemBtn>
