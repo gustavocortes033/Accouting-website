@@ -7,7 +7,7 @@ import Products from './pages/Products/Products';
 import Contact from './pages/Contact/Contact';
 import { Navbar, Footer,  } from "./components/indes";
 import ScrollToTop from './components/ScrollToTop';
-
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -24,6 +24,7 @@ function App() {
        <Route path="/contact" element={<Contact/>} />
        </Routes>
        <Footer />
+       <Analytics />
     </Router>
     
   );
